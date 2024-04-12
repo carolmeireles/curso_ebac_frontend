@@ -103,3 +103,15 @@ section h2 {
 #economy .articles article a {
     background-color: goldenrod;
 }
+
+#tech {
+    background-color: lightblue;
+}
+
+#tech .articles article a {
+    background-color: darkblue;
+}
+
+#entertainment {
+    background-color: lightcyan;
+}
