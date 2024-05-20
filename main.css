@@ -21,6 +21,7 @@ input {
     margin-left: 16px;
     padding: 8px;
     border: 1px dashed #0d8938;
+    width: 250px;
 }
 
 button {
