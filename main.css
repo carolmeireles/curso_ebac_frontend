@@ -43,6 +43,7 @@ button:hover {
 
 ol li {
     margin-left: 24px;
+    padding: 4px;
 }
 
 .tarefaConcluida {
