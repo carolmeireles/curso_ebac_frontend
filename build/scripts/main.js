@@ -1,1 +1,0 @@
-function somar(o,r){return o+r}console.log("Somar: ",somar(10,20));

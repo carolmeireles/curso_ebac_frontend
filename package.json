@@ -1,11 +1,10 @@
 {
-  "name": "curso_ebac_frontend",
+  "name": "exercicio_less",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "gulp": "gulp",
-    "sass": "sass source/styles/main.scss build/styles/main.css --watch",
+    "less": "less-watch-compiler ./src/styles/ ./build/styles/ main.less",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,11 +18,7 @@
   },
   "homepage": "https://github.com/carolmeireles/curso_ebac_frontend#readme",
   "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-imagemin": "^7.1.0",
-    "gulp-sass": "^5.1.0",
-    "gulp-sourcemaps": "^3.0.0",
-    "gulp-uglify": "^3.0.2",
-    "sass": "^1.77.8"
+    "less": "^4.2.0",
+    "less-watch-compiler": "^1.16.3"
   }
 }
