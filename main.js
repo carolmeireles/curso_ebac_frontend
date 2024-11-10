@@ -7,7 +7,7 @@ $(document).ready(function() {
     const followingElement = document.querySelector('#following');
     const linkElement = document.querySelector('#link');
 
-    fetch('https://api.github.com/users/carolmeireles')
+    fetch('https://api.github.com/users/carolmeireles/')
         .then(function(res) {
             return res.json();
         })
