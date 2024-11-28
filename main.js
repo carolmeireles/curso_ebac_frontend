@@ -12,12 +12,19 @@ const aluno4 = new Aluno('José', 10);
 
 let alunos = [aluno1, aluno2, aluno3, aluno4];
 
-function listarAprovados() {
-    for(let i = 0; i < alunos.length; i++) {
-        if(alunos[i].nota >= 6) {
-            console.log(alunos[i].nome);
-        }
-    }
+// function listarAprovados() {
+//     for(let i = 0; i < alunos.length; i++) {
+//         if(alunos[i].nota >= 6) {
+//             return alunos[i].nome;
+//         }
+//     }
+// }
+
+// console.log(listarAprovados());
+
+function filtraAlunosAprovados(aluno) {
+    return aluno.nota >= 6;
 }
 
-console.log(listarAprovados());
+const alunosAprovados = alunos.filter(filtraAlunosAprovados);
+console.log(alunosAprovados);
